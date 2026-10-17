@@ -51,10 +51,19 @@ function renderSample(sample, container) {
     cameraLink,
     details,
   );
+  if (sample.multi_rate) {
+    const rate = element('p', `原生同视频多段变速 · ${sample.rate_min.toFixed(3)}× – ${sample.rate_max.toFixed(3)}×；浏览器仍按正常倍率播放。`, 'admission-note');
+    container.insertBefore(rate, video);
+  }
+  if (sample.time_program) {
+    const program = element('details', undefined, 'sample-details');
+    program.append(element('summary', '查看时间分段 / 渐变节点与来源'), element('pre', JSON.stringify(sample.time_program, null, 2)));
+    container.append(program);
+  }
 }
 
 try {
-  const response = await fetch('samples.json');
+  const response = await fetch('samples.json', { cache: 'no-cache' });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   const manifest = await response.json();
   root.replaceChildren();

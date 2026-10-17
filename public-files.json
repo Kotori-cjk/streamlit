@@ -3,17 +3,18 @@
     "numpy",
     "plotly"
   ],
+  "revision": "20261017-multirate",
   "files": [
     "app.py",
     "samples.json",
-    "assets/anime_01/camera.json",
-    "assets/anime_02/camera.json",
-    "assets/anime_03/camera.json",
+    "assets/anime_multi_01/camera.json",
+    "assets/anime_multi_02/camera.json",
+    "assets/anime_multi_03/camera.json",
     "assets/dl3dv_01/camera.json",
     "assets/dl3dv_02/camera.json",
     "assets/dl3dv_03/camera.json",
-    "assets/replay_01/camera.json",
-    "assets/replay_02/camera.json",
-    "assets/replay_03/camera.json"
+    "assets/replay_multi_01/camera.json",
+    "assets/replay_multi_02/camera.json",
+    "assets/replay_multi_03/camera.json"
   ]
 }

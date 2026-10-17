@@ -31,6 +31,8 @@ a.metric('原交付尺寸',f"{s['width']} × {s['height']}")
 b.metric('帧 / FPS',f"{s['frames']} / {s['fps']}")
 d.metric('首末 PTS 跨度',f"{s['pts_span_s']} s")
 e.metric('LTX latent 时刻',str(s['latent_frames']))
+if s.get('multi_rate'):
+    st.info(f"原生单条视频内多段变速 · {s['rate_min']:.3f}× – {s['rate_max']:.3f}× · 视频仍以24 FPS播放，两路共用源时钟")
 st.video(url(s['video']))
 st.caption('左右已合成为同一视频，确保两路播放同步。下方几何帧由滑块单独选择，不自动跟随播放器。')
 tabs=st.tabs(['相机与时间','训练条件','数值证据'])
@@ -66,6 +68,18 @@ with tabs[0]:
             tf.add_trace(go.Scatter(x=c['video_seconds'],y=w[:,vi],name=f'world time {vi}',mode='markers' if len(w)<10 else 'lines',line=dict(color=color)))
         tf.update_layout(height=240,xaxis_title='Video PTS (s)',yaxis_title='Declared world time (s)',margin=dict(l=5,r=5,t=10,b=5))
         st.plotly_chart(tf,use_container_width=True)
+        if len(w)>3:
+            rate=np.diff(w,axis=0)/np.diff(np.asarray(c['video_seconds']))[:,None]
+            rf=go.Figure()
+            for vi,color in enumerate(['#22b8cf','#ff922b']):
+                rf.add_trace(go.Scatter(x=np.asarray(c['video_seconds'])[:-1],y=rate[:,vi],name=f'rate {vi}',mode='lines',line=dict(color=color)))
+            rf.add_hline(y=1,line_dash='dot',annotation_text='1× normal')
+            rf.update_layout(height=220,xaxis_title='Video PTS (s)',yaxis_title='d(world time) / d(video time) · ×',margin=dict(l=5,r=5,t=10,b=5))
+            st.plotly_chart(rf,use_container_width=True)
+            st.caption('倍率由相邻帧世界时间差分得到；源钟量化会产生微小波动。正常、慢速和加速改变的是场景源时间，非浏览器视频播放倍率。')
+        if s.get('time_program'):
+            with st.expander('查看本视频分段倍率 / 渐变节点与来源'):
+                st.json(s['time_program'])
     with st.expander('当前帧两路 c2w / K 与相机数据下载'):
         for vi in range(2):
             st.write(f'View {vi} · c2w');st.dataframe(poses[j,vi]);st.write('K');st.dataframe(K[j,vi])

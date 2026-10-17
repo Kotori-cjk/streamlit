@@ -1,10 +1,14 @@
 const status = document.getElementById('runtime-status');
 
 try {
-  const response = await fetch('public-files.json');
+  const response = await fetch('public-files.json', { cache: 'no-cache' });
   if (!response.ok) throw new Error(`文件清单加载失败（${response.status}）`);
   const manifest = await response.json();
-  const files = Object.fromEntries(manifest.files.map(path => [path, { url: new URL(path, location.href).href }]));
+  const files = Object.fromEntries(manifest.files.map(path => {
+    const url = new URL(path, location.href);
+    if (manifest.revision) url.searchParams.set('v', manifest.revision);
+    return [path, { url: url.href }];
+  }));
   files['site_base.json'] = JSON.stringify({ base_url: new URL('./', location.href).href });
   const { mount } = await import('https://cdn.jsdelivr.net/npm/@stlite/browser@0.85.1/build/stlite.js');
   mount({
