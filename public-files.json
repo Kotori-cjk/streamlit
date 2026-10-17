@@ -1,0 +1,19 @@
+{
+  "requirements": [
+    "numpy",
+    "plotly"
+  ],
+  "files": [
+    "app.py",
+    "samples.json",
+    "assets/anime_01/camera.json",
+    "assets/anime_02/camera.json",
+    "assets/anime_03/camera.json",
+    "assets/dl3dv_01/camera.json",
+    "assets/dl3dv_02/camera.json",
+    "assets/dl3dv_03/camera.json",
+    "assets/replay_01/camera.json",
+    "assets/replay_02/camera.json",
+    "assets/replay_03/camera.json"
+  ]
+}

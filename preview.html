@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GTA replay、GTA anime 和 DL3DV 双视角视频与训练输入指标预览。">
+  <title>快速视频预览 · 视频数据样本展示</title>
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div><p class="eyebrow">RESEARCH SAMPLE GALLERY</p><h1>快速视频预览</h1></div>
+    <nav aria-label="展示视图"><a href="./">Streamlit 交互视图</a><a class="active" aria-current="page" href="preview.html">快速视频预览</a></nav>
+  </header>
+  <p class="runtime-note">每组可切换 3 个样本，视频中并排展示 A/B 双视角。展示状态与训练准入分别列出；更多相机轨迹与时间帧交互请打开 Streamlit 视图。</p>
+  <main class="preview-shell" id="samples"><p role="status">正在加载样本清单…</p></main>
+  <script type="module" src="preview.js"></script>
+</body>
+</html>
