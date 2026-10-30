@@ -1,11 +1,11 @@
-# 视频数据样本展示
+# 双人成行双视角标注抽检
 
-独立站点，与 `space/` 同级。仓库：`Kotori-cjk/streamlit`；发布地址：https://kotori-cjk.github.io/streamlit/ 。主站仓库无需修改。
+独立仓库 `Kotori-cjk/streamlit`，公开地址：https://kotori-cjk.github.io/streamlit/ 。
 
-`index.html` 使用官方 [Stlite](https://github.com/whitphx/stlite) 的 `@stlite/browser@0.85.1` 在浏览器内运行 `app.py`。`public-files.json` 列出挂载进浏览器虚拟文件系统的应用与 JSON 文件；视频通过同站 HTTPS URL 按需读取。运行环境依赖 jsDelivr/Pyodide CDN，首次启动需要下载。`preview.html` 提供无需 Python 环境的视频预览。
+2026-10-30 接收 H100 交付的 `itt_basic20_static.zip`，替换旧 GTA / DL3DV 展示。20 组、40 个视频，包含基本事实描述、助手初审、旧版对照及浏览器人工记录导出。页面和资源均使用相对路径，不需要后端、Python 或 CDN。
 
-只发布经过整理的 9 个演示样本及配套相机数据。不包含生产目录、凭据、控制接口或本地 Python 环境。
+运行 `python -m http.server 8080` 本地预览。推送 `main` 后通过 GitHub Actions 发布。
 
-当前素材版本为 `20261017-multirate`：6 条 GTA 视频均包含原生多段流速变化，展示端不改变播放倍率；页面提供世界时间、差分倍率与时间程序。Sandy Shores 两轮同源、握手及人犬的执行计划派生相机等边界按原清单保留。新素材使用新 ID，旧恒速与冻结展示素材已移除。
+展示视频为网页压缩版，保留 640×640、24 FPS 和全部帧，未改动训练原视频。初审仅针对已见开发样本，不代表全量准确率或独立人工认证；单视角 31/40 通过、5 个错误、4 个待确认，双视角共同通过 14/20。所有原始 human_reviewed、qualified_for_training 均为 false。
 
-推送到 `main` 后，GitHub Actions 发布静态站点；没有 Python 服务器、外网隧道或额外托管平台。
+人工记录保存在当前浏览器 localStorage，可导出 JSON，不修改服务器或训练数据。原交付说明见 `HANDOFF.md`。旧站可通过 Git 历史恢复（替换前提交 `8cd692f`）。

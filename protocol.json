@@ -1,0 +1,8 @@
+{
+  "scope": "20 previously inspected pairs, controlled comparison under USER-REVISED basic factual criterion; not unseen evaluation",
+  "criterion": "Basic environment correct, visible playable characters listed with shared anonymous IDs across views, broad actions factually compatible, self-contained caption. No requirement to enumerate brief jumps/landings/posture changes. Fail for materially wrong environment, clear player omission/ID swap, incompatible dominant action, or invented interaction. Uncertain not passed.",
+  "prompt_frozen_before_inference": true,
+  "input": "Both full synchronized videos in one request, all source24FPS frames, unchanged640x640",
+  "reviewer": "assistant visual provisional, not independent human ground truth",
+  "qualified_for_training": false
+}

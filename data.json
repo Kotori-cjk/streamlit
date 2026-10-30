@@ -1,0 +1,3038 @@
+{
+  "samples": [
+    {
+      "number": 1,
+      "id": "it_takes_two:itt_ltx_e9de0e1c6cfee91fee4ff364",
+      "clip_id": "itt_ltx_e9de0e1c6cfee91fee4ff364",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 49,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "C",
+      "scene_bucket": "music_cloud",
+      "review": {
+        "views": [
+          {
+            "action": "fail",
+            "broad_action": "fail",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "主角前段地面移动，后半段持续空中飞行；只写在地面跑向笼子与主要后段行为矛盾。"
+          },
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "穹顶、金色框架和云状背景基本相符；moving 可概括空中移动。白色云面称 snowy 属次要材质误差。"
+          }
+        ],
+        "pair_decision": "fail",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Glass-domed room with snow floor, blue ice, and a central golden cage.",
+          "characters_present": [
+            "actor_0"
+          ],
+          "character_descriptions": {
+            "actor_0": "Slim blue-haired doll in yellow/orange top with a back pack"
+          },
+          "character_actions": {
+            "actor_0": "Stands in place, then jumps into the air, then lands, then flies through the air."
+          },
+          "self_contained_caption": "Glass-domed room with snow floor, blue ice, and a central golden cage. Slim blue-haired doll in yellow/orange top with a back pack stands in place, then jumps into the air, then lands, then flies through the air.",
+          "uncertainties": []
+        },
+        "view1": {
+          "environment": "Glass-domed snowy room with floating cloud NPCs and a golden cage.",
+          "characters_present": [
+            "actor_0"
+          ],
+          "character_descriptions": {
+            "actor_0": "Stockier doll in red/maroon winter clothes with a round brown back shield"
+          },
+          "character_actions": {
+            "actor_0": "Glides in a low posture, then crouches, then glides in a low posture."
+          },
+          "self_contained_caption": "Glass-domed snowy room with floating cloud NPCs and a golden cage. Stockier doll in red/maroon winter clothes with a round brown back shield glides in a low posture, then crouches, then glides in a low posture.",
+          "uncertainties": []
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A bright glass-domed room with golden framing, a snowy floor, a central golden cage, and floating cloud creatures.",
+          "characters": {
+            "person_0": "Small humanoid doll with a blue hat and an orange backpack.",
+            "person_1": "Small humanoid doll with a red-orange top and a backpack."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0"
+              ],
+              "character_actions": {
+                "person_0": "Running across the floor toward the central golden cage."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_1"
+              ],
+              "character_actions": {
+                "person_1": "Moving through the snowy area among the floating cloud creatures."
+              }
+            }
+          },
+          "uncertainties": []
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A bright glass-domed room with golden framing, a snowy floor, a central golden cage, and floating cloud creatures.",
+            "characters_present": [
+              "person_0"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll with a blue hat and an orange backpack."
+            },
+            "character_actions": {
+              "person_0": "Running across the floor toward the central golden cage."
+            },
+            "self_contained_caption": "A bright glass-domed room with golden framing, a snowy floor, a central golden cage, and floating cloud creatures. Small humanoid doll with a blue hat and an orange backpack: Running across the floor toward the central golden cage.",
+            "uncertainties": []
+          },
+          "view1": {
+            "environment": "A bright glass-domed room with golden framing, a snowy floor, a central golden cage, and floating cloud creatures.",
+            "characters_present": [
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_1": "Small humanoid doll with a red-orange top and a backpack."
+            },
+            "character_actions": {
+              "person_1": "Moving through the snowy area among the floating cloud creatures."
+            },
+            "self_contained_caption": "A bright glass-domed room with golden framing, a snowy floor, a central golden cage, and floating cloud creatures. Small humanoid doll with a red-orange top and a backpack: Moving through the snowy area among the floating cloud creatures.",
+            "uncertainties": []
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/001/view0.mp4",
+        "assets/001/view1.mp4"
+      ],
+      "overview": "assets/001/overview.jpg"
+    },
+    {
+      "number": 2,
+      "id": "it_takes_two:itt_ltx_f4e90ce2b4335760dd8edc41",
+      "clip_id": "itt_ltx_f4e90ce2b4335760dd8edc41",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 57,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "C",
+      "scene_bucket": "water",
+      "review": {
+        "views": [
+          {
+            "action": "fail",
+            "broad_action": "fail",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "绿色人物在水面上方攀附/移动，写成游泳不符；蓝色人物攀杆基本正确。"
+          },
+          {
+            "action": "fail",
+            "broad_action": "fail",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "绿色主体悬在水面上方、向岩壁移动，swimming through the pool 错误。"
+          }
+        ],
+        "pair_decision": "fail",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Icy cave with rock walls, blue ice floor, and a vertical pole.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim doll with blue torso and red/pink back equipment on the vertical pole",
+            "actor_1": "stockier doll in green clothes at bottom-left on the ice"
+          },
+          "character_actions": {
+            "actor_0": "Climbs.",
+            "actor_1": "Stands in place."
+          },
+          "self_contained_caption": "Icy cave with rock walls, blue ice floor, and a vertical pole. slim doll with blue torso and red/pink back equipment on the vertical pole climbs. stockier doll in green clothes at bottom-left on the ice stands in place.",
+          "uncertainties": []
+        },
+        "view1": {
+          "environment": "Frozen cave with blue ice floor, marked rock walls, and a central rock structure.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim doll in yellow-green clothes",
+            "actor_1": "stockier doll in red-blue clothes on right pole"
+          },
+          "character_actions": {
+            "actor_0": "Glides in a low posture, then stands in place, then crouches, then climbs.",
+            "actor_1": "Stands in place, then climbs."
+          },
+          "self_contained_caption": "Frozen cave with blue ice floor, marked rock walls, and a central rock structure. slim doll in yellow-green clothes glides in a low posture, then stands in place, then crouches, then climbs. stockier doll in red-blue clothes on right pole stands in place, then climbs.",
+          "uncertainties": []
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A dim cave pool with turquoise water, painted stone walls, a wooden structure, and a starry sky overhead.",
+          "characters": {
+            "person_0": "Small humanoid doll wearing a blue top and red-pink bottom.",
+            "person_1": "Small humanoid doll wearing green clothing."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Climbing a vertical pole beside the painted wall.",
+                "person_1": "Swimming in the pool water near the edge."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Climbing the vertical pole on the right side.",
+                "person_1": "Swimming through the pool toward the stone wall."
+              }
+            }
+          },
+          "uncertainties": [
+            "person_1 is only briefly visible at the water's edge in View 0."
+          ]
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A dim cave pool with turquoise water, painted stone walls, a wooden structure, and a starry sky overhead.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll wearing a blue top and red-pink bottom.",
+              "person_1": "Small humanoid doll wearing green clothing."
+            },
+            "character_actions": {
+              "person_0": "Climbing a vertical pole beside the painted wall.",
+              "person_1": "Swimming in the pool water near the edge."
+            },
+            "self_contained_caption": "A dim cave pool with turquoise water, painted stone walls, a wooden structure, and a starry sky overhead. Small humanoid doll wearing a blue top and red-pink bottom: Climbing a vertical pole beside the painted wall. Small humanoid doll wearing green clothing: Swimming in the pool water near the edge.",
+            "uncertainties": [
+              "person_1 is only briefly visible at the water's edge in View 0."
+            ]
+          },
+          "view1": {
+            "environment": "A dim cave pool with turquoise water, painted stone walls, a wooden structure, and a starry sky overhead.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll wearing a blue top and red-pink bottom.",
+              "person_1": "Small humanoid doll wearing green clothing."
+            },
+            "character_actions": {
+              "person_0": "Climbing the vertical pole on the right side.",
+              "person_1": "Swimming through the pool toward the stone wall."
+            },
+            "self_contained_caption": "A dim cave pool with turquoise water, painted stone walls, a wooden structure, and a starry sky overhead. Small humanoid doll wearing a blue top and red-pink bottom: Climbing the vertical pole on the right side. Small humanoid doll wearing green clothing: Swimming through the pool toward the stone wall.",
+            "uncertainties": [
+              "person_1 is only briefly visible at the water's edge in View 0."
+            ]
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/002/view0.mp4",
+        "assets/002/view1.mp4"
+      ],
+      "overview": "assets/002/overview.jpg"
+    },
+    {
+      "number": 3,
+      "id": "it_takes_two:itt_ltx_e48aae483b4030fa7008f80a",
+      "clip_id": "itt_ltx_e48aae483b4030fa7008f80a",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 49,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "C",
+      "scene_bucket": "wood_building",
+      "review": {
+        "views": [
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "木板平台、两位人物外观及跨视角对应基本相符；按局部走跑移动的概括接受，不要求穷举跳跃。"
+          },
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "木板平台、两位人物外观及跨视角对应基本相符；按局部走跑移动的概括接受，不要求穷举跳跃。"
+          }
+        ],
+        "pair_decision": "pass",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Wooden plank platform with log walls and a green crate machine.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim doll in blue clothes with blue hair",
+            "actor_1": "stockier doll in red/maroon clothes with brown hair"
+          },
+          "character_actions": {
+            "actor_0": "Steps forward.",
+            "actor_1": "Steps forward."
+          },
+          "self_contained_caption": "Wooden plank platform with log walls and a green crate machine. slim doll in blue clothes with blue hair steps forward. stockier doll in red/maroon clothes with brown hair steps forward.",
+          "uncertainties": []
+        },
+        "view1": {
+          "environment": "Snowy wooden plank platform with crates, logs and a cart.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim doll in blue/purple winter clothes",
+            "actor_1": "stockier doll in red/maroon winter clothes"
+          },
+          "character_actions": {
+            "actor_0": "Steps forward.",
+            "actor_1": "Steps forward."
+          },
+          "self_contained_caption": "Snowy wooden plank platform with crates, logs and a cart. slim doll in blue/purple winter clothes steps forward. stockier doll in red/maroon winter clothes steps forward.",
+          "uncertainties": []
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A rustic wooden platform with log walls, stone walls, crates, barrels, and a cart under bright sunlight.",
+          "characters": {
+            "person_0": "Small doll in a red top with light hair.",
+            "person_1": "Small doll in a blue outfit with dark hair."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Running across the wooden planks.",
+                "person_1": "Running alongside on the planks."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Running across the wooden planks.",
+                "person_1": "Running across the wooden planks."
+              }
+            }
+          },
+          "uncertainties": []
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A rustic wooden platform with log walls, stone walls, crates, barrels, and a cart under bright sunlight.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small doll in a red top with light hair.",
+              "person_1": "Small doll in a blue outfit with dark hair."
+            },
+            "character_actions": {
+              "person_0": "Running across the wooden planks.",
+              "person_1": "Running alongside on the planks."
+            },
+            "self_contained_caption": "A rustic wooden platform with log walls, stone walls, crates, barrels, and a cart under bright sunlight. Small doll in a red top with light hair: Running across the wooden planks. Small doll in a blue outfit with dark hair: Running alongside on the planks.",
+            "uncertainties": []
+          },
+          "view1": {
+            "environment": "A rustic wooden platform with log walls, stone walls, crates, barrels, and a cart under bright sunlight.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small doll in a red top with light hair.",
+              "person_1": "Small doll in a blue outfit with dark hair."
+            },
+            "character_actions": {
+              "person_0": "Running across the wooden planks.",
+              "person_1": "Running across the wooden planks."
+            },
+            "self_contained_caption": "A rustic wooden platform with log walls, stone walls, crates, barrels, and a cart under bright sunlight. Small doll in a red top with light hair: Running across the wooden planks. Small doll in a blue outfit with dark hair: Running across the wooden planks.",
+            "uncertainties": []
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/003/view0.mp4",
+        "assets/003/view1.mp4"
+      ],
+      "overview": "assets/003/overview.jpg"
+    },
+    {
+      "number": 4,
+      "id": "it_takes_two:itt_ltx_7aa43d85d3a0d09860b7962a",
+      "clip_id": "itt_ltx_7aa43d85d3a0d09860b7962a",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 73,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "C",
+      "scene_bucket": "snow_ice",
+      "review": {
+        "views": [
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "雪地木台场景和两位人物移动基本相符；省略跳离平台及发光连接不作为失败。"
+          },
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "雪地木台场景和两位人物移动基本相符；省略跳离平台及发光连接不作为失败。"
+          }
+        ],
+        "pair_decision": "pass",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Foggy snowy platform with a wooden arch and railings.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim blue-haired doll in blue/purple winter clothes with blue back equipment",
+            "actor_1": "stockier brown-haired doll in red/maroon winter clothes"
+          },
+          "character_actions": {
+            "actor_0": "Glides in a low posture, then crouches.",
+            "actor_1": "Stands in place, then falls after losing support."
+          },
+          "self_contained_caption": "Foggy snowy platform with a wooden arch and railings. slim blue-haired doll in blue/purple winter clothes with blue back equipment glides in a low posture, then crouches. stockier brown-haired doll in red/maroon winter clothes stands in place, then falls after losing support.",
+          "uncertainties": []
+        },
+        "view1": {
+          "environment": "Snowy wooden platform and steep icy slope under a foggy sky with a wooden arch.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim blue/purple-clothed doll with blue back equipment",
+            "actor_1": "stockier red/maroon-clothed doll with red back equipment"
+          },
+          "character_actions": {
+            "actor_0": "Crouches, then stands in place, then has a visible glowing connection.",
+            "actor_1": "Steps forward, then falls after losing support, then lands, then glides in a low posture."
+          },
+          "self_contained_caption": "Snowy wooden platform and steep icy slope under a foggy sky with a wooden arch. slim blue/purple-clothed doll with blue back equipment crouches, then stands in place, then has a visible glowing connection. stockier red/maroon-clothed doll with red back equipment steps forward, then falls after losing support, then lands, then glides in a low posture.",
+          "uncertainties": []
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A bright, foggy snowy landscape with wooden platforms, a large metal arch, stone ruins, and a distant windmill.",
+          "characters": {
+            "person_0": "Small humanoid doll in a blue and purple outfit with a white box on its back.",
+            "person_1": "Small humanoid doll in a red outfit."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Running and sliding across a snowy wooden platform toward a railing.",
+                "person_1": "Running ahead on the snowy slope before moving out of view."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Running on the snowy platform and staying near the left edge.",
+                "person_1": "Running and sliding down a snowy slope with a glowing trail."
+              }
+            }
+          },
+          "uncertainties": []
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A bright, foggy snowy landscape with wooden platforms, a large metal arch, stone ruins, and a distant windmill.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll in a blue and purple outfit with a white box on its back.",
+              "person_1": "Small humanoid doll in a red outfit."
+            },
+            "character_actions": {
+              "person_0": "Running and sliding across a snowy wooden platform toward a railing.",
+              "person_1": "Running ahead on the snowy slope before moving out of view."
+            },
+            "self_contained_caption": "A bright, foggy snowy landscape with wooden platforms, a large metal arch, stone ruins, and a distant windmill. Small humanoid doll in a blue and purple outfit with a white box on its back: Running and sliding across a snowy wooden platform toward a railing. Small humanoid doll in a red outfit: Running ahead on the snowy slope before moving out of view.",
+            "uncertainties": []
+          },
+          "view1": {
+            "environment": "A bright, foggy snowy landscape with wooden platforms, a large metal arch, stone ruins, and a distant windmill.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll in a blue and purple outfit with a white box on its back.",
+              "person_1": "Small humanoid doll in a red outfit."
+            },
+            "character_actions": {
+              "person_0": "Running on the snowy platform and staying near the left edge.",
+              "person_1": "Running and sliding down a snowy slope with a glowing trail."
+            },
+            "self_contained_caption": "A bright, foggy snowy landscape with wooden platforms, a large metal arch, stone ruins, and a distant windmill. Small humanoid doll in a blue and purple outfit with a white box on its back: Running on the snowy platform and staying near the left edge. Small humanoid doll in a red outfit: Running and sliding down a snowy slope with a glowing trail.",
+            "uncertainties": []
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/004/view0.mp4",
+        "assets/004/view1.mp4"
+      ],
+      "overview": "assets/004/overview.jpg"
+    },
+    {
+      "number": 5,
+      "id": "it_takes_two:itt_ltx_a92b4752299cd91a4a68ead5",
+      "clip_id": "itt_ltx_a92b4752299cd91a4a68ead5",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 121,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "C",
+      "scene_bucket": "other",
+      "review": {
+        "views": [
+          {
+            "action": "uncertain",
+            "broad_action": "uncertain",
+            "environment": "pass",
+            "roster_identity": "uncertain",
+            "self_contained": "uncertain",
+            "reason": "近场玩家及球网可见；远场玩家被遮挡/太小，尚不能确认输出的远场回球者确实可见。两人外观都写 small tan doll，也不足以独立核对身份。"
+          },
+          {
+            "action": "uncertain",
+            "broad_action": "uncertain",
+            "environment": "pass",
+            "roster_identity": "uncertain",
+            "self_contained": "uncertain",
+            "reason": "近场玩家及球网可见；远场玩家被遮挡/太小，尚不能确认输出的远场回球者确实可见。两人外观都写 small tan doll，也不足以独立核对身份。"
+          }
+        ],
+        "pair_decision": "uncertain",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Snowy circular platform with a low net and floating ice blocks.",
+          "characters_present": [
+            "actor_0"
+          ],
+          "character_descriptions": {
+            "actor_0": "small light/tan-clothed doll standing in the center circle"
+          },
+          "character_actions": {
+            "actor_0": "Stands in place."
+          },
+          "self_contained_caption": "Snowy circular platform with a low net and floating ice blocks. small light/tan-clothed doll standing in the center circle stands in place.",
+          "uncertainties": [
+            "The small doll's hair color and exact outfit are not resolvable at this scale; labeled as the local center-circle player.",
+            "Red dragon (right) and pink creature (left) are treated as NPCs, not playable dolls."
+          ]
+        },
+        "view1": {
+          "environment": "Snowy elevated platform with a central net and floating winter structures.",
+          "characters_present": [
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_1": "Small stocky brown/leaf-haired doll in the center circle"
+          },
+          "character_actions": {
+            "actor_1": "Stands in place, then jumps into the air, then stands in place."
+          },
+          "self_contained_caption": "Snowy elevated platform with a central net and floating winter structures. Small stocky brown/leaf-haired doll in the center circle stands in place, then jumps into the air, then stands in place.",
+          "uncertainties": [
+            "Only one playable doll is clearly visible in the target; the red and pink winged figures and the trailing ball are NPCs/projectiles."
+          ]
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A snowy floating arena with a central net, glowing orbs, and a red dragon and pink winged creature as background NPCs.",
+          "characters": {
+            "person_0": "Small tan humanoid doll.",
+            "person_1": "Small tan humanoid doll."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Standing on the near side of the court, striking the ball.",
+                "person_1": "Standing at the far side of the net, returning the ball."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Standing at the far side of the net, returning the ball.",
+                "person_1": "Standing on the near side of the court, striking the ball."
+              }
+            }
+          },
+          "uncertainties": [
+            "The two player dolls look very similar; identity is anchored by which camera follows each."
+          ]
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A snowy floating arena with a central net, glowing orbs, and a red dragon and pink winged creature as background NPCs.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small tan humanoid doll.",
+              "person_1": "Small tan humanoid doll."
+            },
+            "character_actions": {
+              "person_0": "Standing on the near side of the court, striking the ball.",
+              "person_1": "Standing at the far side of the net, returning the ball."
+            },
+            "self_contained_caption": "A snowy floating arena with a central net, glowing orbs, and a red dragon and pink winged creature as background NPCs. Small tan humanoid doll: Standing on the near side of the court, striking the ball. Small tan humanoid doll: Standing at the far side of the net, returning the ball.",
+            "uncertainties": [
+              "The two player dolls look very similar; identity is anchored by which camera follows each."
+            ]
+          },
+          "view1": {
+            "environment": "A snowy floating arena with a central net, glowing orbs, and a red dragon and pink winged creature as background NPCs.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small tan humanoid doll.",
+              "person_1": "Small tan humanoid doll."
+            },
+            "character_actions": {
+              "person_0": "Standing at the far side of the net, returning the ball.",
+              "person_1": "Standing on the near side of the court, striking the ball."
+            },
+            "self_contained_caption": "A snowy floating arena with a central net, glowing orbs, and a red dragon and pink winged creature as background NPCs. Small tan humanoid doll: Standing at the far side of the net, returning the ball. Small tan humanoid doll: Standing on the near side of the court, striking the ball.",
+            "uncertainties": [
+              "The two player dolls look very similar; identity is anchored by which camera follows each."
+            ]
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/005/view0.mp4",
+        "assets/005/view1.mp4"
+      ],
+      "overview": "assets/005/overview.jpg"
+    },
+    {
+      "number": 6,
+      "id": "it_takes_two:itt_ltx_66e6582d58092e0ccd580b39",
+      "clip_id": "itt_ltx_66e6582d58092e0ccd580b39",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 65,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "C",
+      "scene_bucket": "snow_ice",
+      "review": {
+        "views": [
+          {
+            "action": "uncertain",
+            "broad_action": "uncertain",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "红色人物在大型 NPC 周围反复跳起，木结构在背景；jumping 有依据，climbing 的接触依据不清楚。"
+          },
+          {
+            "action": "uncertain",
+            "broad_action": "uncertain",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "蓝色位于木车上，红色跳到 NPC 头上再回木车；模型写 climbing on a hooded seat，攀爬/座位解释存疑，待人工判断。"
+          }
+        ],
+        "pair_decision": "uncertain",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Snowy village plaza with wooden hut, tower, and a foreground sled.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "small slim doll in blue winter clothes",
+            "actor_1": "stockier doll in red/maroon winter clothes"
+          },
+          "character_actions": {
+            "actor_0": "Stands in place.",
+            "actor_1": "Climbs, then steps forward, then jumps into the air, then stands in place."
+          },
+          "self_contained_caption": "Snowy village plaza with wooden hut, tower, and a foreground sled. small slim doll in blue winter clothes stands in place. stockier doll in red/maroon winter clothes climbs, then steps forward, then jumps into the air, then stands in place.",
+          "uncertainties": []
+        },
+        "view1": {
+          "environment": "Snowy village plaza with wooden buildings, a sled platform and a large hooded snowman.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "small slim doll in blue winter clothes with blue hair",
+            "actor_1": "stockier doll in red/maroon winter clothes with brown hair"
+          },
+          "character_actions": {
+            "actor_0": "Stands in place.",
+            "actor_1": "Climbs (on the snowman's head), then lands, then stands in place."
+          },
+          "self_contained_caption": "Snowy village plaza with wooden buildings, a sled platform and a large hooded snowman. small slim doll in blue winter clothes with blue hair stands in place. stockier doll in red/maroon winter clothes with brown hair climbs (on the snowman's head), then lands, then stands in place.",
+          "uncertainties": []
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A snowy winter village with wooden houses, a tall windmill frame, and falling snow covering the ground.",
+          "characters": {
+            "person_0": "Small humanoid doll dressed in blue with a tiny hat.",
+            "person_1": "Small humanoid doll dressed in red."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Riding on a wooden cart in the foreground.",
+                "person_1": "Jumping and climbing near a wooden structure in the background."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Sitting on the wooden cart below.",
+                "person_1": "Climbing on a hooded seat then moving onto the cart."
+              }
+            }
+          },
+          "uncertainties": []
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A snowy winter village with wooden houses, a tall windmill frame, and falling snow covering the ground.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll dressed in blue with a tiny hat.",
+              "person_1": "Small humanoid doll dressed in red."
+            },
+            "character_actions": {
+              "person_0": "Riding on a wooden cart in the foreground.",
+              "person_1": "Jumping and climbing near a wooden structure in the background."
+            },
+            "self_contained_caption": "A snowy winter village with wooden houses, a tall windmill frame, and falling snow covering the ground. Small humanoid doll dressed in blue with a tiny hat: Riding on a wooden cart in the foreground. Small humanoid doll dressed in red: Jumping and climbing near a wooden structure in the background.",
+            "uncertainties": []
+          },
+          "view1": {
+            "environment": "A snowy winter village with wooden houses, a tall windmill frame, and falling snow covering the ground.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll dressed in blue with a tiny hat.",
+              "person_1": "Small humanoid doll dressed in red."
+            },
+            "character_actions": {
+              "person_0": "Sitting on the wooden cart below.",
+              "person_1": "Climbing on a hooded seat then moving onto the cart."
+            },
+            "self_contained_caption": "A snowy winter village with wooden houses, a tall windmill frame, and falling snow covering the ground. Small humanoid doll dressed in blue with a tiny hat: Sitting on the wooden cart below. Small humanoid doll dressed in red: Climbing on a hooded seat then moving onto the cart.",
+            "uncertainties": []
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/006/view0.mp4",
+        "assets/006/view1.mp4"
+      ],
+      "overview": "assets/006/overview.jpg"
+    },
+    {
+      "number": 7,
+      "id": "it_takes_two:itt_ltx_02b9b3a71fbc5ba55f696a8c",
+      "clip_id": "itt_ltx_02b9b3a71fbc5ba55f696a8c",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 113,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "C",
+      "scene_bucket": "snow_ice",
+      "review": {
+        "views": [
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "雪地石台和两位人物对应正确；接受小范围地面活动的概括，不要求每次跳起、停顿和落地。"
+          },
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "雪地石台和两位人物对应正确；接受小范围地面活动的概括，不要求每次跳起、停顿和落地。"
+          }
+        ],
+        "pair_decision": "pass",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Snowy winter village plaza with stone statues, a glass dome, and frozen water.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim doll with blue hair, blue/purple winter coat and blue back equipment",
+            "actor_1": "stockier doll with brown hair, red/maroon winter coat"
+          },
+          "character_actions": {
+            "actor_0": "Steps forward.",
+            "actor_1": "Steps forward."
+          },
+          "self_contained_caption": "Snowy winter village plaza with stone statues, a glass dome, and frozen water. slim doll with blue hair, blue/purple winter coat and blue back equipment steps forward. stockier doll with brown hair, red/maroon winter coat steps forward.",
+          "uncertainties": []
+        },
+        "view1": {
+          "environment": "Snowy stone and wooden platform with icicles, glass dome and lamp posts.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim doll in blue/purple winter clothes with blue back equipment",
+            "actor_1": "stockier doll in red/maroon winter clothes with red back equipment"
+          },
+          "character_actions": {
+            "actor_0": "Steps forward.",
+            "actor_1": "Steps forward, then crouches."
+          },
+          "self_contained_caption": "Snowy stone and wooden platform with icicles, glass dome and lamp posts. slim doll in blue/purple winter clothes with blue back equipment steps forward. stockier doll in red/maroon winter clothes with red back equipment steps forward, then crouches.",
+          "uncertainties": []
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A snowy winter plaza with a frozen blue pond, snow-covered stone platforms, a glass dome, lamp posts, and hanging icicles.",
+          "characters": {
+            "person_0": "Small humanoid doll wearing a blue coat and dark hair.",
+            "person_1": "Small humanoid doll wearing a red coat and dark hair."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Running across the snow-covered stone platform.",
+                "person_1": "Running across the snow-covered stone platform."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Running across the snow-covered stone platform.",
+                "person_1": "Running across the snow-covered stone platform."
+              }
+            }
+          },
+          "uncertainties": []
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A snowy winter plaza with a frozen blue pond, snow-covered stone platforms, a glass dome, lamp posts, and hanging icicles.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll wearing a blue coat and dark hair.",
+              "person_1": "Small humanoid doll wearing a red coat and dark hair."
+            },
+            "character_actions": {
+              "person_0": "Running across the snow-covered stone platform.",
+              "person_1": "Running across the snow-covered stone platform."
+            },
+            "self_contained_caption": "A snowy winter plaza with a frozen blue pond, snow-covered stone platforms, a glass dome, lamp posts, and hanging icicles. Small humanoid doll wearing a blue coat and dark hair: Running across the snow-covered stone platform. Small humanoid doll wearing a red coat and dark hair: Running across the snow-covered stone platform.",
+            "uncertainties": []
+          },
+          "view1": {
+            "environment": "A snowy winter plaza with a frozen blue pond, snow-covered stone platforms, a glass dome, lamp posts, and hanging icicles.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll wearing a blue coat and dark hair.",
+              "person_1": "Small humanoid doll wearing a red coat and dark hair."
+            },
+            "character_actions": {
+              "person_0": "Running across the snow-covered stone platform.",
+              "person_1": "Running across the snow-covered stone platform."
+            },
+            "self_contained_caption": "A snowy winter plaza with a frozen blue pond, snow-covered stone platforms, a glass dome, lamp posts, and hanging icicles. Small humanoid doll wearing a blue coat and dark hair: Running across the snow-covered stone platform. Small humanoid doll wearing a red coat and dark hair: Running across the snow-covered stone platform.",
+            "uncertainties": []
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/007/view0.mp4",
+        "assets/007/view1.mp4"
+      ],
+      "overview": "assets/007/overview.jpg"
+    },
+    {
+      "number": 8,
+      "id": "it_takes_two:itt_ltx_7acba009bd26b10095e6c663",
+      "clip_id": "itt_ltx_7acba009bd26b10095e6c663",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 41,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "C",
+      "scene_bucket": "snow_ice",
+      "review": {
+        "views": [
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "蓝色沿雪路活动，红色在栏边跳动；环境、人物及概括动作相符。"
+          },
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "蓝色沿雪路活动，红色在栏边跳动；环境、人物及概括动作相符。"
+          }
+        ],
+        "pair_decision": "pass",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Snowy village path beside a lit house, bench and snowman.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim doll in blue winter clothes",
+            "actor_1": "stockier doll in red/maroon winter clothes"
+          },
+          "character_actions": {
+            "actor_0": "Steps forward.",
+            "actor_1": "Crouches, then steps forward, then jumps into the air, then lands."
+          },
+          "self_contained_caption": "Snowy village path beside a lit house, bench and snowman. slim doll in blue winter clothes steps forward. stockier doll in red/maroon winter clothes crouches, then steps forward, then jumps into the air, then lands.",
+          "uncertainties": []
+        },
+        "view1": {
+          "environment": "Snowy village courtyard with a house, steps, and a carousel structure.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim doll in blue winter clothes with blue hair",
+            "actor_1": "stockier doll in red/maroon winter clothes with brown hair"
+          },
+          "character_actions": {
+            "actor_0": "Steps forward.",
+            "actor_1": "Steps forward, then has a visible glowing connection, then steps forward."
+          },
+          "self_contained_caption": "Snowy village courtyard with a house, steps, and a carousel structure. slim doll in blue winter clothes with blue hair steps forward. stockier doll in red/maroon winter clothes with brown hair steps forward, then has a visible glowing connection, then steps forward.",
+          "uncertainties": []
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A snowy winter village with a snow-covered wooden house, evergreen trees, a snowman, and a circular bridge platform.",
+          "characters": {
+            "person_0": "Small humanoid doll wearing a blue coat.",
+            "person_1": "Small humanoid doll wearing a red coat with a white scarf."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Running along the snowy walkway.",
+                "person_1": "Running and jumping near the bridge railing."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Running along the snowy walkway.",
+                "person_1": "Running and jumping near the bridge railing."
+              }
+            }
+          },
+          "uncertainties": []
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A snowy winter village with a snow-covered wooden house, evergreen trees, a snowman, and a circular bridge platform.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll wearing a blue coat.",
+              "person_1": "Small humanoid doll wearing a red coat with a white scarf."
+            },
+            "character_actions": {
+              "person_0": "Running along the snowy walkway.",
+              "person_1": "Running and jumping near the bridge railing."
+            },
+            "self_contained_caption": "A snowy winter village with a snow-covered wooden house, evergreen trees, a snowman, and a circular bridge platform. Small humanoid doll wearing a blue coat: Running along the snowy walkway. Small humanoid doll wearing a red coat with a white scarf: Running and jumping near the bridge railing.",
+            "uncertainties": []
+          },
+          "view1": {
+            "environment": "A snowy winter village with a snow-covered wooden house, evergreen trees, a snowman, and a circular bridge platform.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll wearing a blue coat.",
+              "person_1": "Small humanoid doll wearing a red coat with a white scarf."
+            },
+            "character_actions": {
+              "person_0": "Running along the snowy walkway.",
+              "person_1": "Running and jumping near the bridge railing."
+            },
+            "self_contained_caption": "A snowy winter village with a snow-covered wooden house, evergreen trees, a snowman, and a circular bridge platform. Small humanoid doll wearing a blue coat: Running along the snowy walkway. Small humanoid doll wearing a red coat with a white scarf: Running and jumping near the bridge railing.",
+            "uncertainties": []
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/008/view0.mp4",
+        "assets/008/view1.mp4"
+      ],
+      "overview": "assets/008/overview.jpg"
+    },
+    {
+      "number": 9,
+      "id": "it_takes_two:itt_ltx_74541472bfcdd001d0bcfce5",
+      "clip_id": "itt_ltx_74541472bfcdd001d0bcfce5",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 41,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "B",
+      "scene_bucket": "snow_ice",
+      "review": {
+        "views": [
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "蓝色在平台移动，红色低姿态小移；描述基本相符。"
+          },
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "蓝色在平台移动，红色低姿态小移；描述基本相符。"
+          }
+        ],
+        "pair_decision": "pass",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Snowy stone plaza with yellow chairs, birch trees and a rope line overhead.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "Slim blue-haired doll in blue/purple winter clothes with blue back pack",
+            "actor_1": "Stockier brown-haired doll in red/maroon winter clothes"
+          },
+          "character_actions": {
+            "actor_0": "Steps forward.",
+            "actor_1": "Crouches."
+          },
+          "self_contained_caption": "Snowy stone plaza with yellow chairs, birch trees and a rope line overhead. Slim blue-haired doll in blue/purple winter clothes with blue back pack steps forward. Stockier brown-haired doll in red/maroon winter clothes crouches.",
+          "uncertainties": []
+        },
+        "view1": {
+          "environment": "Snowy wooden platform and stairs with yellow chairs and a birch tree in a winter scene.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim doll in blue/purple winter clothes with blue back equipment",
+            "actor_1": "stockier doll in red/maroon winter clothes with red back equipment"
+          },
+          "character_actions": {
+            "actor_0": "Lands, then steps forward.",
+            "actor_1": "Crouches."
+          },
+          "self_contained_caption": "Snowy wooden platform and stairs with yellow chairs and a birch tree in a winter scene. slim doll in blue/purple winter clothes with blue back equipment lands, then steps forward. stockier doll in red/maroon winter clothes with red back equipment crouches.",
+          "uncertainties": []
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A snowy outdoor festival area with stone and wooden platforms, rows of yellow chairs, wooden posts, and a roller coaster in the background.",
+          "characters": {
+            "person_0": "Small humanoid doll wearing a blue outfit and a hat.",
+            "person_1": "Small humanoid doll wearing a red outfit."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Running across the snowy platform.",
+                "person_1": "Crouching and moving along the wooden planks."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Running across the snowy platform.",
+                "person_1": "Crouching and moving along the wooden planks."
+              }
+            }
+          },
+          "uncertainties": []
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A snowy outdoor festival area with stone and wooden platforms, rows of yellow chairs, wooden posts, and a roller coaster in the background.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll wearing a blue outfit and a hat.",
+              "person_1": "Small humanoid doll wearing a red outfit."
+            },
+            "character_actions": {
+              "person_0": "Running across the snowy platform.",
+              "person_1": "Crouching and moving along the wooden planks."
+            },
+            "self_contained_caption": "A snowy outdoor festival area with stone and wooden platforms, rows of yellow chairs, wooden posts, and a roller coaster in the background. Small humanoid doll wearing a blue outfit and a hat: Running across the snowy platform. Small humanoid doll wearing a red outfit: Crouching and moving along the wooden planks.",
+            "uncertainties": []
+          },
+          "view1": {
+            "environment": "A snowy outdoor festival area with stone and wooden platforms, rows of yellow chairs, wooden posts, and a roller coaster in the background.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll wearing a blue outfit and a hat.",
+              "person_1": "Small humanoid doll wearing a red outfit."
+            },
+            "character_actions": {
+              "person_0": "Running across the snowy platform.",
+              "person_1": "Crouching and moving along the wooden planks."
+            },
+            "self_contained_caption": "A snowy outdoor festival area with stone and wooden platforms, rows of yellow chairs, wooden posts, and a roller coaster in the background. Small humanoid doll wearing a blue outfit and a hat: Running across the snowy platform. Small humanoid doll wearing a red outfit: Crouching and moving along the wooden planks.",
+            "uncertainties": []
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/009/view0.mp4",
+        "assets/009/view1.mp4"
+      ],
+      "overview": "assets/009/overview.jpg"
+    },
+    {
+      "number": 10,
+      "id": "it_takes_two:itt_ltx_8a62a801bd55d665c3f837b9",
+      "clip_id": "itt_ltx_8a62a801bd55d665c3f837b9",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 49,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "B",
+      "scene_bucket": "snow_ice",
+      "review": {
+        "views": [
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "两位人物在雪地移动，蓝色间有跳跃；概括走跑接受，未列出跳跃不扣分。"
+          },
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "两位人物在雪地移动，蓝色间有跳跃；概括走跑接受，未列出跳跃不扣分。"
+          }
+        ],
+        "pair_decision": "pass",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Snowy ice path with a large circular wheel structure and ice walls.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim blue-haired doll in blue/purple winter clothes with blue back equipment",
+            "actor_1": "stockier brown-haired doll in red/maroon winter clothes with red back equipment"
+          },
+          "character_actions": {
+            "actor_0": "Glides in a low posture.",
+            "actor_1": "Steps forward."
+          },
+          "self_contained_caption": "Snowy ice path with a large circular wheel structure and ice walls. slim blue-haired doll in blue/purple winter clothes with blue back equipment glides in a low posture. stockier brown-haired doll in red/maroon winter clothes with red back equipment steps forward.",
+          "uncertainties": []
+        },
+        "view1": {
+          "environment": "Snowy path beside ice wall with large circular wheel gate in background.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim doll in blue/purple winter clothes with blue back equipment",
+            "actor_1": "stockier doll in red/maroon winter clothes with red back equipment"
+          },
+          "character_actions": {
+            "actor_0": "Glides in a low posture.",
+            "actor_1": "Stands in place."
+          },
+          "self_contained_caption": "Snowy path beside ice wall with large circular wheel gate in background. slim doll in blue/purple winter clothes with blue back equipment glides in a low posture. stockier doll in red/maroon winter clothes with red back equipment stands in place.",
+          "uncertainties": []
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A snowy frozen pass with ice walls, falling snow, a large circular wooden wheel gate, and a small lit building.",
+          "characters": {
+            "person_0": "Small doll in a blue coat and blue hat.",
+            "person_1": "Small doll in a red coat and green hat."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Running across the snowy ground.",
+                "person_1": "Running across the snowy ground."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Running across the snowy ground.",
+                "person_1": "Running across the snowy ground."
+              }
+            }
+          },
+          "uncertainties": []
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A snowy frozen pass with ice walls, falling snow, a large circular wooden wheel gate, and a small lit building.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small doll in a blue coat and blue hat.",
+              "person_1": "Small doll in a red coat and green hat."
+            },
+            "character_actions": {
+              "person_0": "Running across the snowy ground.",
+              "person_1": "Running across the snowy ground."
+            },
+            "self_contained_caption": "A snowy frozen pass with ice walls, falling snow, a large circular wooden wheel gate, and a small lit building. Small doll in a blue coat and blue hat: Running across the snowy ground. Small doll in a red coat and green hat: Running across the snowy ground.",
+            "uncertainties": []
+          },
+          "view1": {
+            "environment": "A snowy frozen pass with ice walls, falling snow, a large circular wooden wheel gate, and a small lit building.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small doll in a blue coat and blue hat.",
+              "person_1": "Small doll in a red coat and green hat."
+            },
+            "character_actions": {
+              "person_0": "Running across the snowy ground.",
+              "person_1": "Running across the snowy ground."
+            },
+            "self_contained_caption": "A snowy frozen pass with ice walls, falling snow, a large circular wooden wheel gate, and a small lit building. Small doll in a blue coat and blue hat: Running across the snowy ground. Small doll in a red coat and green hat: Running across the snowy ground.",
+            "uncertainties": []
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/010/view0.mp4",
+        "assets/010/view1.mp4"
+      ],
+      "overview": "assets/010/overview.jpg"
+    },
+    {
+      "number": 11,
+      "id": "it_takes_two:itt_ltx_0ecc013dd15686647eb8d8e1",
+      "clip_id": "itt_ltx_0ecc013dd15686647eb8d8e1",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 241,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "B",
+      "scene_bucket": "snow_ice",
+      "review": {
+        "views": [
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "两人沿雪路走跑/滑动，约 2–4 秒身体相邻接触/重叠；bumping 作为一般接触描述接受，不推断攻击或碰撞机制。"
+          },
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "两人沿雪路走跑/滑动，约 2–4 秒身体相邻接触/重叠；bumping 作为一般接触描述接受，不推断攻击或碰撞机制。"
+          }
+        ],
+        "pair_decision": "pass",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Snowy village street with wooden buildings, icicles, snow planks, and evergreen trees.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim blue-haired doll in blue/purple winter clothes with a blue back board",
+            "actor_1": "stockier doll in red/maroon winter clothes with red back equipment"
+          },
+          "character_actions": {
+            "actor_0": "Steps forward, then overlap with red doll, then steps forward, then jumps into the air, then steps forward.",
+            "actor_1": "Steps forward, then overlap with blue doll, then glides in a low posture, then rises upright."
+          },
+          "self_contained_caption": "Snowy village street with wooden buildings, icicles, snow planks, and evergreen trees. slim blue-haired doll in blue/purple winter clothes with a blue back board steps forward, then overlap with red doll, then steps forward, then jumps into the air, then steps forward. stockier doll in red/maroon winter clothes with red back equipment steps forward, then overlap with blue doll, then glides in a low posture, then rises upright.",
+          "uncertainties": [
+            "The red doll's long low bent pose (4.5-9.0s) reads as a low slide; it could alternatively be repeated falling."
+          ]
+        },
+        "view1": {
+          "environment": "Snowy village slope with a wooden plank path, barrels and brick buildings.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim doll in blue/purple winter clothes with blue hair",
+            "actor_1": "stockier doll in red/maroon winter clothes with brown hair"
+          },
+          "character_actions": {
+            "actor_0": "Glides in a low posture, then jumps into the air, then glides in a low posture.",
+            "actor_1": "Glides in a low posture."
+          },
+          "self_contained_caption": "Snowy village slope with a wooden plank path, barrels and brick buildings. slim doll in blue/purple winter clothes with blue hair glides in a low posture, then jumps into the air, then glides in a low posture. stockier doll in red/maroon winter clothes with brown hair glides in a low posture.",
+          "uncertainties": []
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A snowy village street with wooden buildings, hanging icicles, snow-covered pine trees, barrels, and a plank path under falling snow.",
+          "characters": {
+            "person_0": "Small humanoid doll wearing a red hooded coat.",
+            "person_1": "Small humanoid doll in a blue outfit with a backpack."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Running and sliding through the snow.",
+                "person_1": "Running and sliding through the snow, bumping into the other doll."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Running and sliding through the snow, bumping into the other doll.",
+                "person_1": "Running and sliding through the snow."
+              }
+            }
+          },
+          "uncertainties": []
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A snowy village street with wooden buildings, hanging icicles, snow-covered pine trees, barrels, and a plank path under falling snow.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll wearing a red hooded coat.",
+              "person_1": "Small humanoid doll in a blue outfit with a backpack."
+            },
+            "character_actions": {
+              "person_0": "Running and sliding through the snow.",
+              "person_1": "Running and sliding through the snow, bumping into the other doll."
+            },
+            "self_contained_caption": "A snowy village street with wooden buildings, hanging icicles, snow-covered pine trees, barrels, and a plank path under falling snow. Small humanoid doll wearing a red hooded coat: Running and sliding through the snow. Small humanoid doll in a blue outfit with a backpack: Running and sliding through the snow, bumping into the other doll.",
+            "uncertainties": []
+          },
+          "view1": {
+            "environment": "A snowy village street with wooden buildings, hanging icicles, snow-covered pine trees, barrels, and a plank path under falling snow.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll wearing a red hooded coat.",
+              "person_1": "Small humanoid doll in a blue outfit with a backpack."
+            },
+            "character_actions": {
+              "person_0": "Running and sliding through the snow, bumping into the other doll.",
+              "person_1": "Running and sliding through the snow."
+            },
+            "self_contained_caption": "A snowy village street with wooden buildings, hanging icicles, snow-covered pine trees, barrels, and a plank path under falling snow. Small humanoid doll wearing a red hooded coat: Running and sliding through the snow, bumping into the other doll. Small humanoid doll in a blue outfit with a backpack: Running and sliding through the snow.",
+            "uncertainties": []
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/011/view0.mp4",
+        "assets/011/view1.mp4"
+      ],
+      "overview": "assets/011/overview.jpg"
+    },
+    {
+      "number": 12,
+      "id": "it_takes_two:itt_ltx_f82cd6f05e2b36522c55e99a",
+      "clip_id": "itt_ltx_f82cd6f05e2b36522c55e99a",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 113,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "C",
+      "scene_bucket": "snow_ice",
+      "review": {
+        "views": [
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "两人在冰道上活动/滑行；接受整体滑行动作，未逐一列蓝色跳跃和红色停顿不扣分。"
+          },
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "两人在冰道上活动/滑行；接受整体滑行动作，未逐一列蓝色跳跃和红色停顿不扣分。"
+          }
+        ],
+        "pair_decision": "pass",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Snowy mountain ice track with a pipe rail along the right edge.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "Slim blue-haired doll in blue/purple winter clothes with blue back equipment",
+            "actor_1": "Stockier brown-haired doll in red/maroon winter clothes with red back equipment"
+          },
+          "character_actions": {
+            "actor_0": "Glides in a low posture, then steps forward, then glides in a low posture.",
+            "actor_1": "Glides in a low posture."
+          },
+          "self_contained_caption": "Snowy mountain ice track with a pipe rail along the right edge. Slim blue-haired doll in blue/purple winter clothes with blue back equipment glides in a low posture, then steps forward, then glides in a low posture. Stockier brown-haired doll in red/maroon winter clothes with red back equipment glides in a low posture.",
+          "uncertainties": []
+        },
+        "view1": {
+          "environment": "Snowy mountain ice slope bordered by a long pipe railing.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim blue-haired doll in blue/purple winter clothes with blue back equipment",
+            "actor_1": "stockier brown-haired doll in red/maroon winter clothes with red back equipment"
+          },
+          "character_actions": {
+            "actor_0": "Glides upright.",
+            "actor_1": "Glides upright."
+          },
+          "self_contained_caption": "Snowy mountain ice slope bordered by a long pipe railing. slim blue-haired doll in blue/purple winter clothes with blue back equipment glides upright. stockier brown-haired doll in red/maroon winter clothes with red back equipment glides upright.",
+          "uncertainties": []
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A snowy mountain valley with a long icy blue track winding between snow-covered cliffs and a frozen lake.",
+          "characters": {
+            "person_0": "Small humanoid doll wearing a blue outfit.",
+            "person_1": "Small humanoid doll wearing a red coat."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Sliding down the icy track.",
+                "person_1": "Sliding down the icy track."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Sliding down the icy track.",
+                "person_1": "Sliding down the icy track."
+              }
+            }
+          },
+          "uncertainties": []
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A snowy mountain valley with a long icy blue track winding between snow-covered cliffs and a frozen lake.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll wearing a blue outfit.",
+              "person_1": "Small humanoid doll wearing a red coat."
+            },
+            "character_actions": {
+              "person_0": "Sliding down the icy track.",
+              "person_1": "Sliding down the icy track."
+            },
+            "self_contained_caption": "A snowy mountain valley with a long icy blue track winding between snow-covered cliffs and a frozen lake. Small humanoid doll wearing a blue outfit: Sliding down the icy track. Small humanoid doll wearing a red coat: Sliding down the icy track.",
+            "uncertainties": []
+          },
+          "view1": {
+            "environment": "A snowy mountain valley with a long icy blue track winding between snow-covered cliffs and a frozen lake.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll wearing a blue outfit.",
+              "person_1": "Small humanoid doll wearing a red coat."
+            },
+            "character_actions": {
+              "person_0": "Sliding down the icy track.",
+              "person_1": "Sliding down the icy track."
+            },
+            "self_contained_caption": "A snowy mountain valley with a long icy blue track winding between snow-covered cliffs and a frozen lake. Small humanoid doll wearing a blue outfit: Sliding down the icy track. Small humanoid doll wearing a red coat: Sliding down the icy track.",
+            "uncertainties": []
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/012/view0.mp4",
+        "assets/012/view1.mp4"
+      ],
+      "overview": "assets/012/overview.jpg"
+    },
+    {
+      "number": 13,
+      "id": "it_takes_two:itt_ltx_22710dc1fb9f0bd138effb16",
+      "clip_id": "itt_ltx_22710dc1fb9f0bd138effb16",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 41,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "C",
+      "scene_bucket": "snow_ice",
+      "review": {
+        "views": [
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "人物位于绿色弹网附近，红色跳动；蓝色也有弹起，但按概括描述不因省略短暂弹起判错。"
+          },
+          {
+            "action": "fail",
+            "broad_action": "fail",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "红色主要在弹网上下弹跳，写成沿上方缆绳摆荡缺乏依据，改变了动作/交互对象。"
+          }
+        ],
+        "pair_decision": "fail",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Snowy village rooftops with a green trampoline net between buildings.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim blue-haired doll in blue winter clothes",
+            "actor_1": "stockier brown-haired doll in red/maroon winter clothes"
+          },
+          "character_actions": {
+            "actor_0": "Crouches, then red doll impact on net, then crouches, then stands in place.",
+            "actor_1": "Stands in place, then lands, then jumps into the air, then rises upright."
+          },
+          "self_contained_caption": "Snowy village rooftops with a green trampoline net between buildings. slim blue-haired doll in blue winter clothes crouches, then red doll impact on net, then crouches, then stands in place. stockier brown-haired doll in red/maroon winter clothes stands in place, then lands, then jumps into the air, then rises upright.",
+          "uncertainties": [
+            "Top-down target view makes exact bounce height of the red doll hard to confirm between 0.7-1.1s."
+          ]
+        },
+        "view1": {
+          "environment": "Snowy village rooftops with a green trampoline platform between wooden buildings.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim blue-haired doll in blue/purple winter clothes",
+            "actor_1": "stockier brown-haired doll in red/maroon winter clothes"
+          },
+          "character_actions": {
+            "actor_0": "Stands in place, then jumps into the air, then lands, then stands in place.",
+            "actor_1": "Falls after losing support, then lands, then stands in place, then jumps into the air."
+          },
+          "self_contained_caption": "Snowy village rooftops with a green trampoline platform between wooden buildings. slim blue-haired doll in blue/purple winter clothes stands in place, then jumps into the air, then lands, then stands in place. stockier brown-haired doll in red/maroon winter clothes falls after losing support, then lands, then stands in place, then jumps into the air.",
+          "uncertainties": []
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A snowy village of red wooden houses with snow-covered roofs, a green net platform, and an overhead zipline cable.",
+          "characters": {
+            "person_0": "Small blue-clothed humanoid doll.",
+            "person_1": "Small red/maroon-clothed humanoid doll wearing a hat."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Standing on the green net platform.",
+                "person_1": "Jumping onto the net and tumbling."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Standing on the net platform below.",
+                "person_1": "Swinging on the overhead cable and jumping."
+              }
+            }
+          },
+          "uncertainties": []
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A snowy village of red wooden houses with snow-covered roofs, a green net platform, and an overhead zipline cable.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small blue-clothed humanoid doll.",
+              "person_1": "Small red/maroon-clothed humanoid doll wearing a hat."
+            },
+            "character_actions": {
+              "person_0": "Standing on the green net platform.",
+              "person_1": "Jumping onto the net and tumbling."
+            },
+            "self_contained_caption": "A snowy village of red wooden houses with snow-covered roofs, a green net platform, and an overhead zipline cable. Small blue-clothed humanoid doll: Standing on the green net platform. Small red/maroon-clothed humanoid doll wearing a hat: Jumping onto the net and tumbling.",
+            "uncertainties": []
+          },
+          "view1": {
+            "environment": "A snowy village of red wooden houses with snow-covered roofs, a green net platform, and an overhead zipline cable.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small blue-clothed humanoid doll.",
+              "person_1": "Small red/maroon-clothed humanoid doll wearing a hat."
+            },
+            "character_actions": {
+              "person_0": "Standing on the net platform below.",
+              "person_1": "Swinging on the overhead cable and jumping."
+            },
+            "self_contained_caption": "A snowy village of red wooden houses with snow-covered roofs, a green net platform, and an overhead zipline cable. Small blue-clothed humanoid doll: Standing on the net platform below. Small red/maroon-clothed humanoid doll wearing a hat: Swinging on the overhead cable and jumping.",
+            "uncertainties": []
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/013/view0.mp4",
+        "assets/013/view1.mp4"
+      ],
+      "overview": "assets/013/overview.jpg"
+    },
+    {
+      "number": 14,
+      "id": "it_takes_two:itt_ltx_f4b0244c4ca10f82d790f22b",
+      "clip_id": "itt_ltx_f4b0244c4ca10f82d790f22b",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 241,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "C",
+      "scene_bucket": "snow_ice",
+      "review": {
+        "views": [
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "雪冰坡面、两位人物对应及滑行动作基本相符；背部装备被称 sled 是次要外观误称，不作为主要活动错误。"
+          },
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "雪冰坡面、两位人物对应及滑行动作基本相符；背部装备被称 sled 是次要外观误称，不作为主要活动错误。"
+          }
+        ],
+        "pair_decision": "pass",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Snowy icy slope in a winter village with stone walls, lanterns and falling snow.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "Slim blue-haired doll in blue/purple winter clothes with blue back equipment",
+            "actor_1": "Stockier brown-haired doll in red/maroon winter clothes with red back equipment"
+          },
+          "character_actions": {
+            "actor_0": "Glides upright, then touched by red-clothed doll, then glides upright.",
+            "actor_1": "Glides upright, then touches blue-clothed doll, then glides upright."
+          },
+          "self_contained_caption": "Snowy icy slope in a winter village with stone walls, lanterns and falling snow. Slim blue-haired doll in blue/purple winter clothes with blue back equipment glides upright, then touched by red-clothed doll, then glides upright. Stockier brown-haired doll in red/maroon winter clothes with red back equipment glides upright, then touches blue-clothed doll, then glides upright.",
+          "uncertainties": []
+        },
+        "view1": {
+          "environment": "Snowy village slope bordered by stone walls and lit wooden buildings.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim doll in blue winter clothes with blue back equipment",
+            "actor_1": "stockier doll in red/maroon winter clothes with red back equipment"
+          },
+          "character_actions": {
+            "actor_0": "Glides in a low posture.",
+            "actor_1": "Glides in a low posture."
+          },
+          "self_contained_caption": "Snowy village slope bordered by stone walls and lit wooden buildings. slim doll in blue winter clothes with blue back equipment glides in a low posture. stockier doll in red/maroon winter clothes with red back equipment glides in a low posture.",
+          "uncertainties": []
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A snowy winter village with a long snow slope flanked by stone walls, lit wooden buildings, a ferris wheel, and boats under falling snow.",
+          "characters": {
+            "person_0": "Small humanoid doll in a red/maroon outfit with a red sled on its back.",
+            "person_1": "Small humanoid doll in a blue outfit with a dark hat."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Sliding down the snowy slope.",
+                "person_1": "Sliding down the snowy slope ahead."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Sliding down the snowy slope.",
+                "person_1": "Sliding down the snowy slope."
+              }
+            }
+          },
+          "uncertainties": []
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A snowy winter village with a long snow slope flanked by stone walls, lit wooden buildings, a ferris wheel, and boats under falling snow.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll in a red/maroon outfit with a red sled on its back.",
+              "person_1": "Small humanoid doll in a blue outfit with a dark hat."
+            },
+            "character_actions": {
+              "person_0": "Sliding down the snowy slope.",
+              "person_1": "Sliding down the snowy slope ahead."
+            },
+            "self_contained_caption": "A snowy winter village with a long snow slope flanked by stone walls, lit wooden buildings, a ferris wheel, and boats under falling snow. Small humanoid doll in a red/maroon outfit with a red sled on its back: Sliding down the snowy slope. Small humanoid doll in a blue outfit with a dark hat: Sliding down the snowy slope ahead.",
+            "uncertainties": []
+          },
+          "view1": {
+            "environment": "A snowy winter village with a long snow slope flanked by stone walls, lit wooden buildings, a ferris wheel, and boats under falling snow.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll in a red/maroon outfit with a red sled on its back.",
+              "person_1": "Small humanoid doll in a blue outfit with a dark hat."
+            },
+            "character_actions": {
+              "person_0": "Sliding down the snowy slope.",
+              "person_1": "Sliding down the snowy slope."
+            },
+            "self_contained_caption": "A snowy winter village with a long snow slope flanked by stone walls, lit wooden buildings, a ferris wheel, and boats under falling snow. Small humanoid doll in a red/maroon outfit with a red sled on its back: Sliding down the snowy slope. Small humanoid doll in a blue outfit with a dark hat: Sliding down the snowy slope.",
+            "uncertainties": []
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/014/view0.mp4",
+        "assets/014/view1.mp4"
+      ],
+      "overview": "assets/014/overview.jpg"
+    },
+    {
+      "number": 15,
+      "id": "it_takes_two:itt_ltx_a03de98c18e28d4da0f4657e",
+      "clip_id": "itt_ltx_a03de98c18e28d4da0f4657e",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 57,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "C",
+      "scene_bucket": "snow_ice",
+      "review": {
+        "views": [
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "蓝色在冰面移动，红色末段远处可见；描述概括接受。"
+          },
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "红色向灯塔方向移动；此视角没有确认可辨蓝色人物，单人列表接受。"
+          }
+        ],
+        "pair_decision": "pass",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Snowy ice landscape with a striped lighthouse, ice cliffs, and a sailing ship.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim blue-haired doll in blue/purple winter clothes with blue back equipment",
+            "actor_1": "stockier brown-haired doll in red/maroon winter clothes"
+          },
+          "character_actions": {
+            "actor_0": "Glides in a low posture, then jumps into the air, then lands, then steps forward.",
+            "actor_1": "Climbs."
+          },
+          "self_contained_caption": "Snowy ice landscape with a striped lighthouse, ice cliffs, and a sailing ship. slim blue-haired doll in blue/purple winter clothes with blue back equipment glides in a low posture, then jumps into the air, then lands, then steps forward. stockier brown-haired doll in red/maroon winter clothes climbs.",
+          "uncertainties": []
+        },
+        "view1": {
+          "environment": "Snowy icy slope descending toward a red-and-white striped tower.",
+          "characters_present": [
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_1": "Stockier doll in red/maroon winter clothes with red back equipment"
+          },
+          "character_actions": {
+            "actor_1": "Glides upright, then glides in a low posture."
+          },
+          "self_contained_caption": "Snowy icy slope descending toward a red-and-white striped tower. Stockier doll in red/maroon winter clothes with red back equipment glides upright, then glides in a low posture.",
+          "uncertainties": []
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A snowy frozen landscape with a red-and-white striped lighthouse, ice cliffs, a striped-sail ship, and small houses.",
+          "characters": {
+            "person_0": "Small humanoid doll wearing a blue jacket and dark pants.",
+            "person_1": "Small humanoid doll wearing a red jacket, brown pants, and a red hat."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Sliding and running across the icy surface.",
+                "person_1": "Standing on the cyan ice formation in the distance."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_1"
+              ],
+              "character_actions": {
+                "person_1": "Running across the snow toward the lighthouse."
+              }
+            }
+          },
+          "uncertainties": []
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A snowy frozen landscape with a red-and-white striped lighthouse, ice cliffs, a striped-sail ship, and small houses.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll wearing a blue jacket and dark pants.",
+              "person_1": "Small humanoid doll wearing a red jacket, brown pants, and a red hat."
+            },
+            "character_actions": {
+              "person_0": "Sliding and running across the icy surface.",
+              "person_1": "Standing on the cyan ice formation in the distance."
+            },
+            "self_contained_caption": "A snowy frozen landscape with a red-and-white striped lighthouse, ice cliffs, a striped-sail ship, and small houses. Small humanoid doll wearing a blue jacket and dark pants: Sliding and running across the icy surface. Small humanoid doll wearing a red jacket, brown pants, and a red hat: Standing on the cyan ice formation in the distance.",
+            "uncertainties": []
+          },
+          "view1": {
+            "environment": "A snowy frozen landscape with a red-and-white striped lighthouse, ice cliffs, a striped-sail ship, and small houses.",
+            "characters_present": [
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_1": "Small humanoid doll wearing a red jacket, brown pants, and a red hat."
+            },
+            "character_actions": {
+              "person_1": "Running across the snow toward the lighthouse."
+            },
+            "self_contained_caption": "A snowy frozen landscape with a red-and-white striped lighthouse, ice cliffs, a striped-sail ship, and small houses. Small humanoid doll wearing a red jacket, brown pants, and a red hat: Running across the snow toward the lighthouse.",
+            "uncertainties": []
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/015/view0.mp4",
+        "assets/015/view1.mp4"
+      ],
+      "overview": "assets/015/overview.jpg"
+    },
+    {
+      "number": 16,
+      "id": "it_takes_two:itt_ltx_ad50967867ffb3495a74a6d3",
+      "clip_id": "itt_ltx_ad50967867ffb3495a74a6d3",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 49,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "B",
+      "scene_bucket": "snow_ice",
+      "review": {
+        "views": [
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "两人在冰面移动/滑动；无需列出蓝色短暂跳起和红色离开画面。"
+          },
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "两人在冰面移动/滑动；无需列出蓝色短暂跳起和红色离开画面。"
+          }
+        ],
+        "pair_decision": "pass",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Snowy ice slope with a wooden arch structure and hanging lanterns.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim blue-haired doll in blue/purple winter clothes with blue back pack",
+            "actor_1": "stockier brown-haired doll in red/maroon winter clothes with red back equipment"
+          },
+          "character_actions": {
+            "actor_0": "Steps forward, then jumps into the air, then lands.",
+            "actor_1": "Steps forward."
+          },
+          "self_contained_caption": "Snowy ice slope with a wooden arch structure and hanging lanterns. slim blue-haired doll in blue/purple winter clothes with blue back pack steps forward, then jumps into the air, then lands. stockier brown-haired doll in red/maroon winter clothes with red back equipment steps forward.",
+          "uncertainties": []
+        },
+        "view1": {
+          "environment": "Snowy icy slope with a wooden arch and platform structure.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "Blue-haired slim doll in blue/purple winter clothes",
+            "actor_1": "Stockier brown-haired doll in red/maroon winter clothes"
+          },
+          "character_actions": {
+            "actor_0": "Steps forward.",
+            "actor_1": "Steps forward."
+          },
+          "self_contained_caption": "Snowy icy slope with a wooden arch and platform structure. Blue-haired slim doll in blue/purple winter clothes steps forward. Stockier brown-haired doll in red/maroon winter clothes steps forward.",
+          "uncertainties": []
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A snowy icy outdoor area with a wooden lantern-lit deck, tall ice walls, and a frozen pond surface.",
+          "characters": {
+            "person_0": "Small humanoid doll in a blue outfit with a blue hat and purple accents.",
+            "person_1": "Small humanoid doll in a red coat with a red hat."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Running and sliding across the ice toward the wooden deck.",
+                "person_1": "Sliding across the ice near the lower edge."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Running and sliding across the ice to the left.",
+                "person_1": "Running and sliding across the ice toward the arch."
+              }
+            }
+          },
+          "uncertainties": []
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A snowy icy outdoor area with a wooden lantern-lit deck, tall ice walls, and a frozen pond surface.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll in a blue outfit with a blue hat and purple accents.",
+              "person_1": "Small humanoid doll in a red coat with a red hat."
+            },
+            "character_actions": {
+              "person_0": "Running and sliding across the ice toward the wooden deck.",
+              "person_1": "Sliding across the ice near the lower edge."
+            },
+            "self_contained_caption": "A snowy icy outdoor area with a wooden lantern-lit deck, tall ice walls, and a frozen pond surface. Small humanoid doll in a blue outfit with a blue hat and purple accents: Running and sliding across the ice toward the wooden deck. Small humanoid doll in a red coat with a red hat: Sliding across the ice near the lower edge.",
+            "uncertainties": []
+          },
+          "view1": {
+            "environment": "A snowy icy outdoor area with a wooden lantern-lit deck, tall ice walls, and a frozen pond surface.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll in a blue outfit with a blue hat and purple accents.",
+              "person_1": "Small humanoid doll in a red coat with a red hat."
+            },
+            "character_actions": {
+              "person_0": "Running and sliding across the ice to the left.",
+              "person_1": "Running and sliding across the ice toward the arch."
+            },
+            "self_contained_caption": "A snowy icy outdoor area with a wooden lantern-lit deck, tall ice walls, and a frozen pond surface. Small humanoid doll in a blue outfit with a blue hat and purple accents: Running and sliding across the ice to the left. Small humanoid doll in a red coat with a red hat: Running and sliding across the ice toward the arch.",
+            "uncertainties": []
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/016/view0.mp4",
+        "assets/016/view1.mp4"
+      ],
+      "overview": "assets/016/overview.jpg"
+    },
+    {
+      "number": 17,
+      "id": "it_takes_two:itt_ltx_e379a9d0abeec9764a0246d9",
+      "clip_id": "itt_ltx_e379a9d0abeec9764a0246d9",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 57,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "A",
+      "scene_bucket": "snow_ice",
+      "review": {
+        "views": [
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "两人在冰雪坡面移动/低姿态滑动，外观对应基本相符。"
+          },
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "两人在冰雪坡面移动/低姿态滑动，外观对应基本相符。"
+          }
+        ],
+        "pair_decision": "pass",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Snowy icy platform with a large dark circular structure at the top edge.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "Slim doll in blue/purple winter clothes with a glowing trail at its feet",
+            "actor_1": "Stockier doll in red/maroon winter clothes"
+          },
+          "character_actions": {
+            "actor_0": "Glides in a low posture, then steps forward.",
+            "actor_1": "Crouches."
+          },
+          "self_contained_caption": "Snowy icy platform with a large dark circular structure at the top edge. Slim doll in blue/purple winter clothes with a glowing trail at its feet glides in a low posture, then steps forward. Stockier doll in red/maroon winter clothes crouches.",
+          "uncertainties": []
+        },
+        "view1": {
+          "environment": "Snowy ice cliff platform beside a dark metal structure.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim blue/purple doll with blue back equipment",
+            "actor_1": "stockier red/maroon doll with red back equipment"
+          },
+          "character_actions": {
+            "actor_0": "Glides in a low posture, then steps forward.",
+            "actor_1": "Stands in place, then crouches."
+          },
+          "self_contained_caption": "Snowy ice cliff platform beside a dark metal structure. slim blue/purple doll with blue back equipment glides in a low posture, then steps forward. stockier red/maroon doll with red back equipment stands in place, then crouches.",
+          "uncertainties": []
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A snowy, icy mountain slope with rocky outcrops and a large metallic cylindrical structure at the top.",
+          "characters": {
+            "person_0": "Small humanoid doll in blue/purple clothing.",
+            "person_1": "Small humanoid doll in red clothing."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Sliding and moving across the snowy slope.",
+                "person_1": "Crouched and sliding across the snow."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Sliding and moving across the snowy slope.",
+                "person_1": "Crouched and sliding across the snow."
+              }
+            }
+          },
+          "uncertainties": []
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A snowy, icy mountain slope with rocky outcrops and a large metallic cylindrical structure at the top.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll in blue/purple clothing.",
+              "person_1": "Small humanoid doll in red clothing."
+            },
+            "character_actions": {
+              "person_0": "Sliding and moving across the snowy slope.",
+              "person_1": "Crouched and sliding across the snow."
+            },
+            "self_contained_caption": "A snowy, icy mountain slope with rocky outcrops and a large metallic cylindrical structure at the top. Small humanoid doll in blue/purple clothing: Sliding and moving across the snowy slope. Small humanoid doll in red clothing: Crouched and sliding across the snow.",
+            "uncertainties": []
+          },
+          "view1": {
+            "environment": "A snowy, icy mountain slope with rocky outcrops and a large metallic cylindrical structure at the top.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll in blue/purple clothing.",
+              "person_1": "Small humanoid doll in red clothing."
+            },
+            "character_actions": {
+              "person_0": "Sliding and moving across the snowy slope.",
+              "person_1": "Crouched and sliding across the snow."
+            },
+            "self_contained_caption": "A snowy, icy mountain slope with rocky outcrops and a large metallic cylindrical structure at the top. Small humanoid doll in blue/purple clothing: Sliding and moving across the snowy slope. Small humanoid doll in red clothing: Crouched and sliding across the snow.",
+            "uncertainties": []
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/017/view0.mp4",
+        "assets/017/view1.mp4"
+      ],
+      "overview": "assets/017/overview.jpg"
+    },
+    {
+      "number": 18,
+      "id": "it_takes_two:itt_ltx_a091c0a20dca58facd1abf58",
+      "clip_id": "itt_ltx_a091c0a20dca58facd1abf58",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 41,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "A",
+      "scene_bucket": "snow_ice",
+      "review": {
+        "views": [
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "雪村环境和两人移动基本相符；大型紫色 NPC 未误列为玩家。"
+          },
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "雪村环境和两人移动基本相符；大型紫色 NPC 未误列为玩家。"
+          }
+        ],
+        "pair_decision": "pass",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Snowy village street with wooden houses, stone walls and a bench.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim blue-haired doll in blue winter clothes",
+            "actor_1": "stockier brown-haired doll in red/maroon winter clothes"
+          },
+          "character_actions": {
+            "actor_0": "Steps forward, then crouches, then rises upright.",
+            "actor_1": "Steps forward, then crouches."
+          },
+          "self_contained_caption": "Snowy village street with wooden houses, stone walls and a bench. slim blue-haired doll in blue winter clothes steps forward, then crouches, then rises upright. stockier brown-haired doll in red/maroon winter clothes steps forward, then crouches.",
+          "uncertainties": [
+            "The large round purple/white figure with brown back equipment is treated as an NPC, not a playable doll."
+          ]
+        },
+        "view1": {
+          "environment": "Snowy village street with wooden houses, stone walls and a bench.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim doll in blue winter clothes with blue hair",
+            "actor_1": "stockier doll in red/maroon winter clothes"
+          },
+          "character_actions": {
+            "actor_0": "Steps forward.",
+            "actor_1": "Steps forward."
+          },
+          "self_contained_caption": "Snowy village street with wooden houses, stone walls and a bench. slim doll in blue winter clothes with blue hair steps forward. stockier doll in red/maroon winter clothes steps forward.",
+          "uncertainties": [
+            "The larger purple-clothed figure with a round brown back object near the house is treated as an NPC, not a playable doll."
+          ]
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A snow-covered village with wooden cabins, stone walls, glowing lamp posts, and evergreen trees under a pale sky.",
+          "characters": {
+            "person_0": "Small humanoid doll in a red coat with white trim.",
+            "person_1": "Small humanoid doll in a blue outfit."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Walking and running through the snow.",
+                "person_1": "Walking and running through the snow ahead."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Walking and running through the snow.",
+                "person_1": "Walking and running through the snow ahead."
+              }
+            }
+          },
+          "uncertainties": [
+            "The large lavender snowperson with a sack is treated as an NPC, not a player."
+          ]
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A snow-covered village with wooden cabins, stone walls, glowing lamp posts, and evergreen trees under a pale sky.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll in a red coat with white trim.",
+              "person_1": "Small humanoid doll in a blue outfit."
+            },
+            "character_actions": {
+              "person_0": "Walking and running through the snow.",
+              "person_1": "Walking and running through the snow ahead."
+            },
+            "self_contained_caption": "A snow-covered village with wooden cabins, stone walls, glowing lamp posts, and evergreen trees under a pale sky. Small humanoid doll in a red coat with white trim: Walking and running through the snow. Small humanoid doll in a blue outfit: Walking and running through the snow ahead.",
+            "uncertainties": [
+              "The large lavender snowperson with a sack is treated as an NPC, not a player."
+            ]
+          },
+          "view1": {
+            "environment": "A snow-covered village with wooden cabins, stone walls, glowing lamp posts, and evergreen trees under a pale sky.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll in a red coat with white trim.",
+              "person_1": "Small humanoid doll in a blue outfit."
+            },
+            "character_actions": {
+              "person_0": "Walking and running through the snow.",
+              "person_1": "Walking and running through the snow ahead."
+            },
+            "self_contained_caption": "A snow-covered village with wooden cabins, stone walls, glowing lamp posts, and evergreen trees under a pale sky. Small humanoid doll in a red coat with white trim: Walking and running through the snow. Small humanoid doll in a blue outfit: Walking and running through the snow ahead.",
+            "uncertainties": [
+              "The large lavender snowperson with a sack is treated as an NPC, not a player."
+            ]
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/018/view0.mp4",
+        "assets/018/view1.mp4"
+      ],
+      "overview": "assets/018/overview.jpg"
+    },
+    {
+      "number": 19,
+      "id": "it_takes_two:itt_ltx_a66fe54b031916e1833b5f6b",
+      "clip_id": "itt_ltx_a66fe54b031916e1833b5f6b",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 41,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "C",
+      "scene_bucket": "snow_ice",
+      "review": {
+        "views": [
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "冰面滑行与双视角人物对应基本相符。"
+          },
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "冰面滑行与双视角人物对应基本相符。"
+          }
+        ],
+        "pair_decision": "pass",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Snowy icy plaza with buildings, statues and falling snow.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "Slim doll in blue/purple winter clothes with blue back equipment",
+            "actor_1": "Stockier doll in red/maroon winter clothes with red back equipment"
+          },
+          "character_actions": {
+            "actor_0": "Stands in place, then glides in a low posture, then rises upright.",
+            "actor_1": "Glides in a low posture."
+          },
+          "self_contained_caption": "Snowy icy plaza with buildings, statues and falling snow. Slim doll in blue/purple winter clothes with blue back equipment stands in place, then glides in a low posture, then rises upright. Stockier doll in red/maroon winter clothes with red back equipment glides in a low posture.",
+          "uncertainties": []
+        },
+        "view1": {
+          "environment": "Snowy frozen plaza with ice-covered buildings and a large icicle structure.",
+          "characters_present": [
+            "actor_0",
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_0": "slim doll in blue/purple winter clothes with blue back equipment",
+            "actor_1": "stockier doll in red/maroon winter clothes with red back equipment"
+          },
+          "character_actions": {
+            "actor_0": "Glides in a low posture.",
+            "actor_1": "Stands in place, then glides in a low posture."
+          },
+          "self_contained_caption": "Snowy frozen plaza with ice-covered buildings and a large icicle structure. slim doll in blue/purple winter clothes with blue back equipment glides in a low posture. stockier doll in red/maroon winter clothes with red back equipment stands in place, then glides in a low posture.",
+          "uncertainties": []
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A snowy frozen lake plaza in a winter village with icicle-covered buildings, a stone lion statue, and falling snow.",
+          "characters": {
+            "person_0": "Small doll in a blue coat and hat.",
+            "person_1": "Small doll in a red coat and hat."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Sliding across the icy surface.",
+                "person_1": "Sliding across the icy surface ahead."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Sliding across the icy surface in the distance.",
+                "person_1": "Sliding across the icy surface."
+              }
+            }
+          },
+          "uncertainties": []
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A snowy frozen lake plaza in a winter village with icicle-covered buildings, a stone lion statue, and falling snow.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small doll in a blue coat and hat.",
+              "person_1": "Small doll in a red coat and hat."
+            },
+            "character_actions": {
+              "person_0": "Sliding across the icy surface.",
+              "person_1": "Sliding across the icy surface ahead."
+            },
+            "self_contained_caption": "A snowy frozen lake plaza in a winter village with icicle-covered buildings, a stone lion statue, and falling snow. Small doll in a blue coat and hat: Sliding across the icy surface. Small doll in a red coat and hat: Sliding across the icy surface ahead.",
+            "uncertainties": []
+          },
+          "view1": {
+            "environment": "A snowy frozen lake plaza in a winter village with icicle-covered buildings, a stone lion statue, and falling snow.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small doll in a blue coat and hat.",
+              "person_1": "Small doll in a red coat and hat."
+            },
+            "character_actions": {
+              "person_0": "Sliding across the icy surface in the distance.",
+              "person_1": "Sliding across the icy surface."
+            },
+            "self_contained_caption": "A snowy frozen lake plaza in a winter village with icicle-covered buildings, a stone lion statue, and falling snow. Small doll in a blue coat and hat: Sliding across the icy surface in the distance. Small doll in a red coat and hat: Sliding across the icy surface.",
+            "uncertainties": []
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/019/view0.mp4",
+        "assets/019/view1.mp4"
+      ],
+      "overview": "assets/019/overview.jpg"
+    },
+    {
+      "number": 20,
+      "id": "it_takes_two:itt_ltx_4c3b46331942287450574010",
+      "clip_id": "itt_ltx_4c3b46331942287450574010",
+      "media": {
+        "width": 640,
+        "height": 640,
+        "num_frames": 73,
+        "fps_num": 24,
+        "fps_den": 1
+      },
+      "band": "C",
+      "scene_bucket": "snow_ice",
+      "review": {
+        "views": [
+          {
+            "action": "fail",
+            "broad_action": "fail",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "蓝色人物在雪地移动正确；星形物是远处固定标记，发光连接不能支持 holding a star-shaped object。"
+          },
+          {
+            "action": "pass",
+            "broad_action": "pass",
+            "environment": "pass",
+            "roster_identity": "pass",
+            "self_contained": "pass",
+            "reason": "红色站立后低冲/滑动，蓝色末段远处可见；动作作概括接受。"
+          }
+        ],
+        "pair_decision": "fail",
+        "human_reviewed": false,
+        "criterion": "basic factual compatibility; not exhaustive action chronology"
+      },
+      "baseline": {
+        "view0": {
+          "environment": "Snowy slope beside an ice wall and a wooden ramp structure.",
+          "characters_present": [
+            "actor_0"
+          ],
+          "character_descriptions": {
+            "actor_0": "Slim doll in blue/purple winter clothes with a blue back equipment"
+          },
+          "character_actions": {
+            "actor_0": "Steps forward, then has a visible glowing connection (floating cross drone)."
+          },
+          "self_contained_caption": "Snowy slope beside an ice wall and a wooden ramp structure. Slim doll in blue/purple winter clothes with a blue back equipment steps forward, then has a visible glowing connection (floating cross drone).",
+          "uncertainties": []
+        },
+        "view1": {
+          "environment": "Snowy mountain slope with ice cliffs, wooden barriers and a foggy tower.",
+          "characters_present": [
+            "actor_1"
+          ],
+          "character_descriptions": {
+            "actor_1": "Stockier doll in red/maroon winter coat with red back equipment"
+          },
+          "character_actions": {
+            "actor_1": "Stands in place, then crouches, then glides in a low posture."
+          },
+          "self_contained_caption": "Snowy mountain slope with ice cliffs, wooden barriers and a foggy tower. Stockier doll in red/maroon winter coat with red back equipment stands in place, then crouches, then glides in a low posture.",
+          "uncertainties": [
+            "A small distant figure near the cross object may be the blue-haired doll but is too small to confirm in the target view."
+          ]
+        }
+      },
+      "result": {
+        "schema_valid": true,
+        "paired_annotation": {
+          "environment": "A bright, hazy snowy field with a wooden log wall, a ramp, and tall floodlight poles under a white sky.",
+          "characters": {
+            "person_0": "Small humanoid doll in a blue and purple outfit with a hat.",
+            "person_1": "Small humanoid doll in a red maroon coat with a hat."
+          },
+          "views": {
+            "view0": {
+              "characters_present": [
+                "person_0"
+              ],
+              "character_actions": {
+                "person_0": "Running across the snow while holding a star-shaped object."
+              }
+            },
+            "view1": {
+              "characters_present": [
+                "person_0",
+                "person_1"
+              ],
+              "character_actions": {
+                "person_0": "Standing in the distance near the log wall.",
+                "person_1": "Standing then falling and sliding on the snow."
+              }
+            }
+          },
+          "uncertainties": []
+        },
+        "annotation": {
+          "view0": {
+            "environment": "A bright, hazy snowy field with a wooden log wall, a ramp, and tall floodlight poles under a white sky.",
+            "characters_present": [
+              "person_0"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll in a blue and purple outfit with a hat."
+            },
+            "character_actions": {
+              "person_0": "Running across the snow while holding a star-shaped object."
+            },
+            "self_contained_caption": "A bright, hazy snowy field with a wooden log wall, a ramp, and tall floodlight poles under a white sky. Small humanoid doll in a blue and purple outfit with a hat: Running across the snow while holding a star-shaped object.",
+            "uncertainties": []
+          },
+          "view1": {
+            "environment": "A bright, hazy snowy field with a wooden log wall, a ramp, and tall floodlight poles under a white sky.",
+            "characters_present": [
+              "person_0",
+              "person_1"
+            ],
+            "character_descriptions": {
+              "person_0": "Small humanoid doll in a blue and purple outfit with a hat.",
+              "person_1": "Small humanoid doll in a red maroon coat with a hat."
+            },
+            "character_actions": {
+              "person_0": "Standing in the distance near the log wall.",
+              "person_1": "Standing then falling and sliding on the snow."
+            },
+            "self_contained_caption": "A bright, hazy snowy field with a wooden log wall, a ramp, and tall floodlight poles under a white sky. Small humanoid doll in a blue and purple outfit with a hat: Standing in the distance near the log wall. Small humanoid doll in a red maroon coat with a hat: Standing then falling and sliding on the snow.",
+            "uncertainties": []
+          }
+        },
+        "human_reviewed": false,
+        "qualified_for_training": false
+      },
+      "states": {},
+      "video_urls": [
+        "assets/020/view0.mp4",
+        "assets/020/view1.mp4"
+      ],
+      "overview": "assets/020/overview.jpg"
+    }
+  ],
+  "metrics": {
+    "scope": "known20 development samples; not independent holdout",
+    "reviewer": "assistant visual provisional",
+    "human_reviewed": false,
+    "qualified_for_training": false,
+    "schema_valid_pairs": 20,
+    "total_pairs": 20,
+    "total_views": 40,
+    "action_views": {
+      "pass": 31,
+      "fail": 5,
+      "uncertain": 4
+    },
+    "action_pairs": {
+      "pass": 14,
+      "fail": 4,
+      "uncertain": 2
+    },
+    "fields_pairs": {
+      "environment": {
+        "pass": 20,
+        "fail": 0,
+        "uncertain": 0
+      },
+      "roster_identity": {
+        "pass": 19,
+        "fail": 0,
+        "uncertain": 1
+      },
+      "broad_action": {
+        "pass": 14,
+        "fail": 4,
+        "uncertain": 2
+      },
+      "self_contained": {
+        "pass": 19,
+        "fail": 0,
+        "uncertain": 1
+      }
+    },
+    "metric_note": "action_views/action_pairs are legacy UI keys for overall basic-description acceptance. Self-contained checks explicit appearance+activity and no unresolved IDs; factual correctness is counted separately. No claim of population accuracy."
+  }
+}

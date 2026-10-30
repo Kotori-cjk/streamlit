@@ -1,0 +1,462 @@
+{
+  "1": {
+    "views": [
+      {
+        "action": "fail",
+        "broad_action": "fail",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "主角前段地面移动，后半段持续空中飞行；只写在地面跑向笼子与主要后段行为矛盾。"
+      },
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "穹顶、金色框架和云状背景基本相符；moving 可概括空中移动。白色云面称 snowy 属次要材质误差。"
+      }
+    ],
+    "pair_decision": "fail",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "2": {
+    "views": [
+      {
+        "action": "fail",
+        "broad_action": "fail",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "绿色人物在水面上方攀附/移动，写成游泳不符；蓝色人物攀杆基本正确。"
+      },
+      {
+        "action": "fail",
+        "broad_action": "fail",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "绿色主体悬在水面上方、向岩壁移动，swimming through the pool 错误。"
+      }
+    ],
+    "pair_decision": "fail",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "3": {
+    "views": [
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "木板平台、两位人物外观及跨视角对应基本相符；按局部走跑移动的概括接受，不要求穷举跳跃。"
+      },
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "木板平台、两位人物外观及跨视角对应基本相符；按局部走跑移动的概括接受，不要求穷举跳跃。"
+      }
+    ],
+    "pair_decision": "pass",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "4": {
+    "views": [
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "雪地木台场景和两位人物移动基本相符；省略跳离平台及发光连接不作为失败。"
+      },
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "雪地木台场景和两位人物移动基本相符；省略跳离平台及发光连接不作为失败。"
+      }
+    ],
+    "pair_decision": "pass",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "5": {
+    "views": [
+      {
+        "action": "uncertain",
+        "broad_action": "uncertain",
+        "environment": "pass",
+        "roster_identity": "uncertain",
+        "self_contained": "uncertain",
+        "reason": "近场玩家及球网可见；远场玩家被遮挡/太小，尚不能确认输出的远场回球者确实可见。两人外观都写 small tan doll，也不足以独立核对身份。"
+      },
+      {
+        "action": "uncertain",
+        "broad_action": "uncertain",
+        "environment": "pass",
+        "roster_identity": "uncertain",
+        "self_contained": "uncertain",
+        "reason": "近场玩家及球网可见；远场玩家被遮挡/太小，尚不能确认输出的远场回球者确实可见。两人外观都写 small tan doll，也不足以独立核对身份。"
+      }
+    ],
+    "pair_decision": "uncertain",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "6": {
+    "views": [
+      {
+        "action": "uncertain",
+        "broad_action": "uncertain",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "红色人物在大型 NPC 周围反复跳起，木结构在背景；jumping 有依据，climbing 的接触依据不清楚。"
+      },
+      {
+        "action": "uncertain",
+        "broad_action": "uncertain",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "蓝色位于木车上，红色跳到 NPC 头上再回木车；模型写 climbing on a hooded seat，攀爬/座位解释存疑，待人工判断。"
+      }
+    ],
+    "pair_decision": "uncertain",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "7": {
+    "views": [
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "雪地石台和两位人物对应正确；接受小范围地面活动的概括，不要求每次跳起、停顿和落地。"
+      },
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "雪地石台和两位人物对应正确；接受小范围地面活动的概括，不要求每次跳起、停顿和落地。"
+      }
+    ],
+    "pair_decision": "pass",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "8": {
+    "views": [
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "蓝色沿雪路活动，红色在栏边跳动；环境、人物及概括动作相符。"
+      },
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "蓝色沿雪路活动，红色在栏边跳动；环境、人物及概括动作相符。"
+      }
+    ],
+    "pair_decision": "pass",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "9": {
+    "views": [
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "蓝色在平台移动，红色低姿态小移；描述基本相符。"
+      },
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "蓝色在平台移动，红色低姿态小移；描述基本相符。"
+      }
+    ],
+    "pair_decision": "pass",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "10": {
+    "views": [
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "两位人物在雪地移动，蓝色间有跳跃；概括走跑接受，未列出跳跃不扣分。"
+      },
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "两位人物在雪地移动，蓝色间有跳跃；概括走跑接受，未列出跳跃不扣分。"
+      }
+    ],
+    "pair_decision": "pass",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "11": {
+    "views": [
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "两人沿雪路走跑/滑动，约 2–4 秒身体相邻接触/重叠；bumping 作为一般接触描述接受，不推断攻击或碰撞机制。"
+      },
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "两人沿雪路走跑/滑动，约 2–4 秒身体相邻接触/重叠；bumping 作为一般接触描述接受，不推断攻击或碰撞机制。"
+      }
+    ],
+    "pair_decision": "pass",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "12": {
+    "views": [
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "两人在冰道上活动/滑行；接受整体滑行动作，未逐一列蓝色跳跃和红色停顿不扣分。"
+      },
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "两人在冰道上活动/滑行；接受整体滑行动作，未逐一列蓝色跳跃和红色停顿不扣分。"
+      }
+    ],
+    "pair_decision": "pass",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "13": {
+    "views": [
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "人物位于绿色弹网附近，红色跳动；蓝色也有弹起，但按概括描述不因省略短暂弹起判错。"
+      },
+      {
+        "action": "fail",
+        "broad_action": "fail",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "红色主要在弹网上下弹跳，写成沿上方缆绳摆荡缺乏依据，改变了动作/交互对象。"
+      }
+    ],
+    "pair_decision": "fail",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "14": {
+    "views": [
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "雪冰坡面、两位人物对应及滑行动作基本相符；背部装备被称 sled 是次要外观误称，不作为主要活动错误。"
+      },
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "雪冰坡面、两位人物对应及滑行动作基本相符；背部装备被称 sled 是次要外观误称，不作为主要活动错误。"
+      }
+    ],
+    "pair_decision": "pass",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "15": {
+    "views": [
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "蓝色在冰面移动，红色末段远处可见；描述概括接受。"
+      },
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "红色向灯塔方向移动；此视角没有确认可辨蓝色人物，单人列表接受。"
+      }
+    ],
+    "pair_decision": "pass",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "16": {
+    "views": [
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "两人在冰面移动/滑动；无需列出蓝色短暂跳起和红色离开画面。"
+      },
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "两人在冰面移动/滑动；无需列出蓝色短暂跳起和红色离开画面。"
+      }
+    ],
+    "pair_decision": "pass",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "17": {
+    "views": [
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "两人在冰雪坡面移动/低姿态滑动，外观对应基本相符。"
+      },
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "两人在冰雪坡面移动/低姿态滑动，外观对应基本相符。"
+      }
+    ],
+    "pair_decision": "pass",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "18": {
+    "views": [
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "雪村环境和两人移动基本相符；大型紫色 NPC 未误列为玩家。"
+      },
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "雪村环境和两人移动基本相符；大型紫色 NPC 未误列为玩家。"
+      }
+    ],
+    "pair_decision": "pass",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "19": {
+    "views": [
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "冰面滑行与双视角人物对应基本相符。"
+      },
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "冰面滑行与双视角人物对应基本相符。"
+      }
+    ],
+    "pair_decision": "pass",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  },
+  "20": {
+    "views": [
+      {
+        "action": "fail",
+        "broad_action": "fail",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "蓝色人物在雪地移动正确；星形物是远处固定标记，发光连接不能支持 holding a star-shaped object。"
+      },
+      {
+        "action": "pass",
+        "broad_action": "pass",
+        "environment": "pass",
+        "roster_identity": "pass",
+        "self_contained": "pass",
+        "reason": "红色站立后低冲/滑动，蓝色末段远处可见；动作作概括接受。"
+      }
+    ],
+    "pair_decision": "fail",
+    "human_reviewed": false,
+    "criterion": "basic factual compatibility; not exhaustive action chronology"
+  }
+}

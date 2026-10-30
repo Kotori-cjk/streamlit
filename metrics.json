@@ -1,0 +1,42 @@
+{
+  "scope": "known20 development samples; not independent holdout",
+  "reviewer": "assistant visual provisional",
+  "human_reviewed": false,
+  "qualified_for_training": false,
+  "schema_valid_pairs": 20,
+  "total_pairs": 20,
+  "total_views": 40,
+  "action_views": {
+    "pass": 31,
+    "fail": 5,
+    "uncertain": 4
+  },
+  "action_pairs": {
+    "pass": 14,
+    "fail": 4,
+    "uncertain": 2
+  },
+  "fields_pairs": {
+    "environment": {
+      "pass": 20,
+      "fail": 0,
+      "uncertain": 0
+    },
+    "roster_identity": {
+      "pass": 19,
+      "fail": 0,
+      "uncertain": 1
+    },
+    "broad_action": {
+      "pass": 14,
+      "fail": 4,
+      "uncertain": 2
+    },
+    "self_contained": {
+      "pass": 19,
+      "fail": 0,
+      "uncertain": 1
+    }
+  },
+  "metric_note": "action_views/action_pairs are legacy UI keys for overall basic-description acceptance. Self-contained checks explicit appearance+activity and no unresolved IDs; factual correctness is counted separately. No claim of population accuracy."
+}
